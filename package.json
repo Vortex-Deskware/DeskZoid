@@ -1,0 +1,15 @@
+{
+  "name": "DeskZoid",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "description": "Panzoid Desktop Client",
+  "author": "Colebolebole",
+  "devDependencies": {
+    "electron": "^16.2.8"
+  }
+}
